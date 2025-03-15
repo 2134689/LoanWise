@@ -1,0 +1,11 @@
+client_config_backend: file
+client_config:
+  client_id: YOUR_CLIENT_ID
+  client_secret: YOUR_CLIENT_SECRET
+  redirect_uri: http://localhost:8080/
+save_credentials: True
+save_credentials_backend: file
+save_credentials_file: mycreds.txt
+get_refresh_token: True
+oauth_scope:
+  - https://www.googleapis.com/auth/drive
